@@ -22,8 +22,8 @@
 //    _Priceview.font = [UIFont systemFontOfSize:22];
 //    [self.view addSubview:_Priceview];
 //    [NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(action:) userInfo:nil repeats:YES];
-    
-    _label = [[PriceLabel alloc]initWithFrame:CGRectMake(100, 200, 200, 30)];
+//    
+    _label = [[PriceLabel alloc]initWithFrame:CGRectMake(100, 200, 200, 50)];
     _label.backgroundColor = [UIColor yellowColor];
     [self.view addSubview:_label];
     double number = 10000*((arc4random() % 90000) / 100000.00)+10000;
