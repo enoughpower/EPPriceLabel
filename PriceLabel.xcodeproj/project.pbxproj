@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F54B52861D5082E800DE8718 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F54B52851D5082E800DE8718 /* main.m */; };
+		F54B52891D5082E800DE8718 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F54B52881D5082E800DE8718 /* AppDelegate.m */; };
+		F54B528C1D5082E800DE8718 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54B528B1D5082E800DE8718 /* ViewController.m */; };
+		F54B528F1D5082E800DE8718 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54B528D1D5082E800DE8718 /* Main.storyboard */; };
+		F54B52911D5082E800DE8718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F54B52901D5082E800DE8718 /* Assets.xcassets */; };
+		F54B52941D5082E800DE8718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54B52921D5082E800DE8718 /* LaunchScreen.storyboard */; };
+		F54B529D1D5085CF00DE8718 /* PriceLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F54B529C1D5085CF00DE8718 /* PriceLabel.m */; };
+		F54B52A01D50870800DE8718 /* CMTickerLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = F54B529F1D50870800DE8718 /* CMTickerLabelView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F54B52811D5082E800DE8718 /* PriceLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PriceLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54B52851D5082E800DE8718 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F54B52871D5082E800DE8718 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F54B52881D5082E800DE8718 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F54B528A1D5082E800DE8718 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F54B528B1D5082E800DE8718 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F54B528E1D5082E800DE8718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F54B52901D5082E800DE8718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F54B52931D5082E800DE8718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F54B52951D5082E800DE8718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54B529B1D5085CF00DE8718 /* PriceLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriceLabel.h; sourceTree = "<group>"; };
+		F54B529C1D5085CF00DE8718 /* PriceLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriceLabel.m; sourceTree = "<group>"; };
+		F54B529E1D50870800DE8718 /* CMTickerLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTickerLabelView.h; sourceTree = "<group>"; };
+		F54B529F1D50870800DE8718 /* CMTickerLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTickerLabelView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F54B527E1D5082E800DE8718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F54B52781D5082E800DE8718 = {
+			isa = PBXGroup;
+			children = (
+				F54B52831D5082E800DE8718 /* PriceLabel */,
+				F54B52821D5082E800DE8718 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F54B52821D5082E800DE8718 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F54B52811D5082E800DE8718 /* PriceLabel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F54B52831D5082E800DE8718 /* PriceLabel */ = {
+			isa = PBXGroup;
+			children = (
+				F54B52871D5082E800DE8718 /* AppDelegate.h */,
+				F54B52881D5082E800DE8718 /* AppDelegate.m */,
+				F54B528A1D5082E800DE8718 /* ViewController.h */,
+				F54B528B1D5082E800DE8718 /* ViewController.m */,
+				F54B529B1D5085CF00DE8718 /* PriceLabel.h */,
+				F54B529C1D5085CF00DE8718 /* PriceLabel.m */,
+				F54B529E1D50870800DE8718 /* CMTickerLabelView.h */,
+				F54B529F1D50870800DE8718 /* CMTickerLabelView.m */,
+				F54B528D1D5082E800DE8718 /* Main.storyboard */,
+				F54B52901D5082E800DE8718 /* Assets.xcassets */,
+				F54B52921D5082E800DE8718 /* LaunchScreen.storyboard */,
+				F54B52951D5082E800DE8718 /* Info.plist */,
+				F54B52841D5082E800DE8718 /* Supporting Files */,
+			);
+			path = PriceLabel;
+			sourceTree = "<group>";
+		};
+		F54B52841D5082E800DE8718 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F54B52851D5082E800DE8718 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F54B52801D5082E800DE8718 /* PriceLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54B52981D5082E800DE8718 /* Build configuration list for PBXNativeTarget "PriceLabel" */;
+			buildPhases = (
+				F54B527D1D5082E800DE8718 /* Sources */,
+				F54B527E1D5082E800DE8718 /* Frameworks */,
+				F54B527F1D5082E800DE8718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PriceLabel;
+			productName = PriceLabel;
+			productReference = F54B52811D5082E800DE8718 /* PriceLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F54B52791D5082E800DE8718 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = dengcheng;
+				TargetAttributes = {
+					F54B52801D5082E800DE8718 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F54B527C1D5082E800DE8718 /* Build configuration list for PBXProject "PriceLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F54B52781D5082E800DE8718;
+			productRefGroup = F54B52821D5082E800DE8718 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F54B52801D5082E800DE8718 /* PriceLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F54B527F1D5082E800DE8718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54B52941D5082E800DE8718 /* LaunchScreen.storyboard in Resources */,
+				F54B52911D5082E800DE8718 /* Assets.xcassets in Resources */,
+				F54B528F1D5082E800DE8718 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F54B527D1D5082E800DE8718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54B52A01D50870800DE8718 /* CMTickerLabelView.m in Sources */,
+				F54B528C1D5082E800DE8718 /* ViewController.m in Sources */,
+				F54B52891D5082E800DE8718 /* AppDelegate.m in Sources */,
+				F54B529D1D5085CF00DE8718 /* PriceLabel.m in Sources */,
+				F54B52861D5082E800DE8718 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F54B528D1D5082E800DE8718 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F54B528E1D5082E800DE8718 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F54B52921D5082E800DE8718 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F54B52931D5082E800DE8718 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F54B52961D5082E800DE8718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F54B52971D5082E800DE8718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F54B52991D5082E800DE8718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PriceLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huobi.PriceLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F54B529A1D5082E800DE8718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PriceLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huobi.PriceLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F54B527C1D5082E800DE8718 /* Build configuration list for PBXProject "PriceLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54B52961D5082E800DE8718 /* Debug */,
+				F54B52971D5082E800DE8718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F54B52981D5082E800DE8718 /* Build configuration list for PBXNativeTarget "PriceLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54B52991D5082E800DE8718 /* Debug */,
+				F54B529A1D5082E800DE8718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F54B52791D5082E800DE8718 /* Project object */;
+}
