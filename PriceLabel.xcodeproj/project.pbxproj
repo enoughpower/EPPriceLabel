@@ -14,7 +14,6 @@
 		F54B52911D5082E800DE8718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F54B52901D5082E800DE8718 /* Assets.xcassets */; };
 		F54B52941D5082E800DE8718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54B52921D5082E800DE8718 /* LaunchScreen.storyboard */; };
 		F54B529D1D5085CF00DE8718 /* PriceLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F54B529C1D5085CF00DE8718 /* PriceLabel.m */; };
-		F54B52A01D50870800DE8718 /* CMTickerLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = F54B529F1D50870800DE8718 /* CMTickerLabelView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +29,6 @@
 		F54B52951D5082E800DE8718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F54B529B1D5085CF00DE8718 /* PriceLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriceLabel.h; sourceTree = "<group>"; };
 		F54B529C1D5085CF00DE8718 /* PriceLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriceLabel.m; sourceTree = "<group>"; };
-		F54B529E1D50870800DE8718 /* CMTickerLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTickerLabelView.h; sourceTree = "<group>"; };
-		F54B529F1D50870800DE8718 /* CMTickerLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTickerLabelView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +67,6 @@
 				F54B528B1D5082E800DE8718 /* ViewController.m */,
 				F54B529B1D5085CF00DE8718 /* PriceLabel.h */,
 				F54B529C1D5085CF00DE8718 /* PriceLabel.m */,
-				F54B529E1D50870800DE8718 /* CMTickerLabelView.h */,
-				F54B529F1D50870800DE8718 /* CMTickerLabelView.m */,
 				F54B528D1D5082E800DE8718 /* Main.storyboard */,
 				F54B52901D5082E800DE8718 /* Assets.xcassets */,
 				F54B52921D5082E800DE8718 /* LaunchScreen.storyboard */,
@@ -160,7 +155,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F54B52A01D50870800DE8718 /* CMTickerLabelView.m in Sources */,
 				F54B528C1D5082E800DE8718 /* ViewController.m in Sources */,
 				F54B52891D5082E800DE8718 /* AppDelegate.m in Sources */,
 				F54B529D1D5085CF00DE8718 /* PriceLabel.m in Sources */,

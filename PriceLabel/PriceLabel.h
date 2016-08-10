@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
 @interface PriceLabel : UIView
 
 @property (nonatomic, copy)NSString *text;
+
+@property (nonatomic, strong)UIFont *font;
+
+@property (nonatomic, strong)UIColor *textColor;
+
 
 @end
